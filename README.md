@@ -4,11 +4,14 @@ Simple tool to clean pods on "Error", "Crashloop...", "Completed", etc from your
 # Usage:
 
 
-clean-pods.sh [-h] [-s -n] -- Cleanup script for pods in error, crashloop, etc
+ clean-pods.sh [-h] [-s -n]
   
   where:
-      -h  show this help text
+  
+      -h  show  help text
+      
       -c  set the context, as in  "kubectl --context=" (Required)
+      
       -n  set the namespace (Required) 
     
  
